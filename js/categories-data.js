@@ -1,0 +1,15 @@
+const categories = [
+    {id: 1, name: "Молоко, сыр, яйцо", image:"images/category/1.png"},
+    {id: 2, name: "Хлеб", image:"images/category/2.png"},
+    {id: 3, name: "Фрукты и овощи", image:"images/category/3.png"},
+    {id: 4, name: "Замороженные продукты", image:"images/category/4.png"},
+    {id: 5, name: "Напитки", image:"images/category/5.png"},
+    {id: 6, name: "Кондитерские изделия", image:"images/category/6.png"},
+    {id: 7, name: "Чай, кофе", image:"images/category/7.png"},
+    {id: 8, name: "Бакалея", image:"images/category/8.png"},
+    {id: 9, name: "Здоровое питание", image:"images/category/9.png"},
+    {id: 10, name: "Зоотовары", image:"images/category/10.png"},
+    {id: 11, name: "Детское питание", image:"images/category/11.png"},
+    {id: 12, name: "Мясо, птица, колбаса", image:"images/category/12.png"},
+    {id: 13, name: "Непродовольственные товары", image:"images/category/13.png"},
+]

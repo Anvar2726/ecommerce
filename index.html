@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a class="header__logo" href="index.html">
+                    <img src="./images/site_logo.png" alt="logo site">
+                </a>
+                <a class="header__logo2" href="index.html">
+                    <img src="./images/site_logo-res.png" alt="site logo res">
+                </a>
+                <ul class="header__left">
+                    <li class="header__left-btn">
+                        <button class="header__left-btn header__left-btn1">
+                            <img src="./images/hamburgermenu.svg" alt="hamburgermenu">
+                        </button>
+                        <a class="header__left-link" href="katalog.html">
+                            <span class="header__left-btn-title">Каталог</span>
+                        </a>
+                    </li>
+                    <li class="header__left-item">
+                        <input class="header__left-search" type="search" id="search" placeholder="Найти товар">
+                        <label for="search">
+                            <img src="./images/search.svg" alt="search">
+                        </label>
+                    </li>
+                </ul>
+                <ul class="header__right">
+                    <li>
+                        <a class="header__right-item" href="#">
+                            <img src="images/izbranniy.svg" alt="izbranniy">
+                            Избранное
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__right-item" href="#">
+                            <img src="images/produkti.svg" alt="produkti">
+                            продукты
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__right-item" href="#">
+                            <img src="images/korzinka.svg" alt="">
+                            Корзина
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__right-profile" href="#">
+                            <img src="images/aleksey.png" alt="avatar">
+                            <span class="header__right-profile-title"> Алексей</span>
+                            <span><img class="header__right-profile-img" src="images/dropdown.svg"
+                                    alt="dropdown"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__catalog">
+            <div class="container">
+                <ul class="header__menu">
+                    <li>
+                        <a class="header__menu-link" href="#">
+                            Молоко, сыр, яйцо
+                        </a>
+                        <a class="header__menu-link" href="#">
+                            Хлеб
+                        </a>
+                        <a class="header__menu-link" href="#">
+                            Фрукты и овощи
+                        </a>
+                        <a class="header__menu-link" href="#">
+                            Замороженные продукты
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__menu-link" href="#">
+                            Напитки
+                        </a>
+                        <a class="header__menu-link" href="#">
+                            Кондитерские изделия
+                        </a>
+                        <a class="header__menu-link" href="#">
+                            Чай, кофе
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__menu-link" href="#">
+                            Бакалея
+                        </a>
+                        <a class="header__menu-link" href="#">
+                            Здоровое питание
+                        </a>
+                        <a class="header__menu-link" href="#">
+                            Зоотовары
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__menu-link" href="#">
+                            Непродовольственные товары
+                        </a>
+                        <a class="header__menu-link" href="#">
+                            Детское питание
+                        </a>
+                        <a class="header__menu-link" href="#">
+                            Мясо, птица, колбаса
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- deliver -->
+        <section class="deliver">
+            <div class="container deliver__container">
+                <img src="./images/img.png" alt="savat" width="303" height="202">
+                <h1 class="deliver__title">Доставка бесплатно от 1000 ₽</h1>
+            </div>
+        </section>
+        <!-- discount -->
+        <section class="discount">
+            <div class="container discount__container">
+                <div class="discount__intro">
+                    <h3 class="discount__intro-title">Акции</h3>
+                    <a class="discount__intro-link" href="products.html">
+                        Все продукты
+                        <img src="./images/right.svg" alt="right">
+                    </a>
+                </div>
+                <ul class="discount__cards">
+
+                </ul>
+            </div>
+        </section>
+        <!-- novinki -->
+        <section class="novinki">
+            <div class="container novinki__container">
+                <div class="discount__intro">
+                    <h3 class="discount__intro-title">Новинки</h3>
+                    <a class="discount__intro-link" href="products.html">
+                        Все продукты
+                        <img src="./images/right.svg" alt="right">
+                    </a>
+                </div>
+                <ul class="novinki__cards">
+
+                </ul>
+            </div>
+        </section>
+        <!-- bought -->
+        <section class="bought">
+            <div class="container bought__container">
+                <div class="discount__intro">
+                    <h3 class="discount__intro-title">Покупали раньше</h3>
+                    <a class="discount__intro-link" href="products.html">
+                        Покупали раньше
+                        <img src="./images/right.svg" alt="right">
+                    </a>
+                </div>
+                <ul class="bought__cards">
+                </ul>
+            </div>
+        </section>
+        <section class="apps">
+            <div class="container">
+                <div class="discount__intro">
+                    <h3 class="discount__intro-title">Специальные предложения</h3>
+                </div>
+                <div class="apps__wrapper">
+                </div>
+            </div>
+        </section>
+        <section class="magazins">
+            <div class="container">
+                <div class="discount__intro">
+                    <h3 class="discount__intro-title">Наши магазины</h3>
+                </div>
+                <div class="magazins__btns">
+                    <button class="magazins__btn">btn 1</button>
+                    <button class="magazins__btn">btn 2</button>
+                    <button class="magazins__btn">btn 3</button>
+                    <button class="magazins__btn">btn 4</button>
+                </div>
+                <div class="magazins__maps">
+                    <iframe class="magazins__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.0728869561685!2d69.19919917727982!3d41.28551813892201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ba578f4f58d%3A0xd7a2ecf23413b7a0!2sNajot%20Ta&#39;lim%20Chilonzor%20Filial!5e0!3m2!1suz!2s!4v1706197109963!5m2!1suz!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                    <iframe class="magazins__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.2978132017006!2d69.19919917727982!3d41.28551813892201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ba578f4f58d%3A0xd7a2ecf23413b7a0!2sNajot%20Ta&#39;lim%20Chilonzor%20Filial!5e1!3m2!1suz!2s!4v1706197183637!5m2!1suz!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                    <iframe class="magazins__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23965.995049060188!2d69.21034666973333!3d41.3360627869091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8bfaedfe3e1d%3A0x23ac4a5a705b84ab!2zTmFqb3QgVGHigJlsaW0!5e0!3m2!1suz!2s!4v1706197294510!5m2!1suz!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                    <iframe class="magazins__map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40013.352660716846!2d69.1781444652425!3d41.32366098689334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8bfaedfe3e1d%3A0x23ac4a5a705b84ab!2zTmFqb3QgVGHigJlsaW0!5e1!3m2!1suz!2s!4v1706197352157!5m2!1suz!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/products-data.js"></script>
+    <script src="js/products.js"></script>
+</body>
+
+</html>
