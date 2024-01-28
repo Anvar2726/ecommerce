@@ -42,5 +42,8 @@ lastProducts.forEach(product => novinkiCards.innerHTML += getProductCards(produc
 
 
 // bought
-const highRating = products.sort((a, b) => a.rating - b.rating).reverse().slice(0, 4)
+const highRating = products.sort((a, b) => a.rating - b.rating).filter(product => product.priceText == '').slice(0, 4)
 highRating.forEach(product => bought.innerHTML += getProductCards(product))
+
+
+// prodducts html

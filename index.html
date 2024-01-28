@@ -43,7 +43,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="header__right-item" href="#">
+                        <a class="header__right-item" href="products.html">
                             <img src="images/produkti.svg" alt="produkti">
                             продукты
                         </a>
@@ -65,62 +65,25 @@
                 </ul>
             </nav>
         </div>
-        <div class="header__catalog">
-            <div class="container">
-                <ul class="header__menu">
-                    <li>
-                        <a class="header__menu-link" href="#">
-                            Молоко, сыр, яйцо
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Хлеб
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Фрукты и овощи
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Замороженные продукты
-                        </a>
-                    </li>
-                    <li>
-                        <a class="header__menu-link" href="#">
-                            Напитки
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Кондитерские изделия
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Чай, кофе
-                        </a>
-                    </li>
-                    <li>
-                        <a class="header__menu-link" href="#">
-                            Бакалея
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Здоровое питание
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Зоотовары
-                        </a>
-                    </li>
-                    <li>
-                        <a class="header__menu-link" href="#">
-                            Непродовольственные товары
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Детское питание
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Мясо, птица, колбаса
-                        </a>
-                    </li>
-                </ul>
-            </div>
+       
+        <div class="container">
+            <div class="header__catalog"></div>
+            
         </div>
     </header>
+   <div class="container">
+    <div class="search">
+        <div class="search__container ">
+            <!-- <div class="search__card">
+                <img class="search-img" src="" alt="">
+                <p class="search-title"></p>
+                <p class="search-price"></p>
+            </div> -->
+        </div>
+    </div>
+   </div>
 
-    <main>
+    <main class="main">
         <!-- deliver -->
         <section class="deliver">
             <div class="container deliver__container">
@@ -172,6 +135,7 @@
                 </ul>
             </div>
         </section>
+        <!-- apps -->
         <section class="apps">
             <div class="container">
                 <div class="discount__intro">
@@ -181,16 +145,17 @@
                 </div>
             </div>
         </section>
+        <!-- magazins -->
         <section class="magazins">
             <div class="container">
                 <div class="discount__intro">
                     <h3 class="discount__intro-title">Наши магазины</h3>
                 </div>
                 <div class="magazins__btns">
-                    <button class="magazins__btn">btn 1</button>
-                    <button class="magazins__btn">btn 2</button>
-                    <button class="magazins__btn">btn 3</button>
-                    <button class="magazins__btn">btn 4</button>
+                    <button class="magazins__btn">п.Щельяюр</button>
+                    <button class="magazins__btn">д.Вертеп</button>
+                    <button class="magazins__btn">с.Краснобор</button>
+                    <button class="magazins__btn">д.Диюр</button>
                 </div>
                 <div class="magazins__maps">
                     <iframe class="magazins__map"
@@ -221,9 +186,11 @@
         </section>
     </main>
     
-    <script src="js/index.js"></script>
+    <script src="js/categories-data.js"></script>
+    <script src="js/const.js"></script>
     <script src="js/main.js"></script>
     <script src="js/products-data.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/products.js"></script>
 </body>
 

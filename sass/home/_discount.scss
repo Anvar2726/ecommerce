@@ -1,7 +1,7 @@
 .discount {
 
     &__container {
-        padding-top: 80px;
+        padding-top: 40px;
     }
 
     &__intro {
@@ -28,7 +28,8 @@
 
     &__cards {
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
+        gap: 40px;
         padding-bottom: 120px;
     }
 
@@ -40,6 +41,7 @@
         position: relative;
         display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
 
         &:hover {
             box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.10);

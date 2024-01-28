@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/products.css">
     <title>Document</title>
 </head>
 
@@ -28,7 +28,7 @@
                         </a>
                     </li>
                     <li class="header__left-item">
-                        <input class="header__left-search" type="search" id="search" placeholder="Найти товар">
+                        <input class="header__left-search"  id="search" placeholder="Найти товар">
                         <label for="search">
                             <img src="./images/search.svg" alt="search">
                         </label>
@@ -63,62 +63,25 @@
                 </ul>
             </nav>
         </div>
-        <div class="header__catalog">
-            <div class="container">
-                <ul class="header__menu">
-                    <li>
-                        <a class="header__menu-link" href="#">
-                            Молоко, сыр, яйцо
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Хлеб
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Фрукты и овощи
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Замороженные продукты
-                        </a>
-                    </li>
-                    <li>
-                        <a class="header__menu-link" href="#">
-                            Напитки
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Кондитерские изделия
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Чай, кофе
-                        </a>
-                    </li>
-                    <li>
-                        <a class="header__menu-link" href="#">
-                            Бакалея
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Здоровое питание
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Зоотовары
-                        </a>
-                    </li>
-                    <li>
-                        <a class="header__menu-link" href="#">
-                            Непродовольственные товары
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Детское питание
-                        </a>
-                        <a class="header__menu-link" href="#">
-                            Мясо, птица, колбаса
-                        </a>
-                    </li>
-                </ul>
+        <div class="container ">
+            <div class="header__catalog">
+                
             </div>
         </div>
     </header>
     <main>
-        <!-- discount -->
+        <!-- products -->
+        <div class="container products__container">
+            <div class="products__link">
+                <a class="products__link-item1" href="index.html">Главная</a>
+                <img src="./images/right.svg" alt="rightn arrow">
+                <a class="products__link-item2" href="products.html">Все продукты</a>
+            </div>
+            <!-- <ul class="products__nav">
+            </ul> -->
+            <ul class="products__pagination">
+            </ul>
+        </div>
         <section class="discount">
             <div class="container discount__container">
                 <div class="discount__intro">
@@ -126,15 +89,16 @@
                         Все продукты
                     </h3>
                 </div>
-                <ul class="products" style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-
+                <ul class="discount__cards products" style="display: flex; gap: 40px; flex-wrap: wrap;">
+                   
                 </ul>
             </div>
         </section>
-        <img src=>
     </main>
+    <script src="js/categories-data.js"></script>
     <script src="js/main.js"></script>
     <script src="js/products-data.js"></script>
-    <script src="js/product.js"></script>
+    <script src="js/const.js"></script>
+    <script src="js/all-products.js"></script>
 </body>
 </html>

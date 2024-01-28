@@ -207,41 +207,6 @@ main {
     display: none;
   }
 }
-.deliver {
-  margin-top: 76px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1440px;
-  width: 100%;
-  background-image: url("../../images/dostavka_bacground.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.deliver__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.deliver__title {
-  color: #414141;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 150%;
-}
-
-@media only screen and (max-width: 710px) {
-  .deliver__container {
-    height: 80px;
-    align-items: center;
-    justify-content: center;
-  }
-  .deliver__container img {
-    display: none;
-  }
-  .deliver__title {
-    font-size: 18px;
-  }
-}
 .discount__container {
   padding-top: 40px;
 }
@@ -344,120 +309,47 @@ main {
   box-shadow: 4px 8px 16px 0px rgba(255, 102, 51, 0.2);
 }
 
-.novinki__cards {
+.products__container {
+  margin-top: 100px;
+}
+.products__link {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 120px;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 24px;
 }
-
-.bought__cards {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 120px;
-}
-
-.apps__wrapper {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 120px;
-}
-.apps__item {
-  padding: 30px;
-  display: flex;
-  max-width: 584px;
-  border-radius: 4px;
-  background: #FCD5BA;
-  transition: all 0.3s;
-}
-.apps__item:last-child {
-  background: #E5FFDE;
-}
-.apps__item:hover {
-  box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
-}
-.apps__item-title {
+.products__link-item1 {
   color: #414141;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 150%;
-}
-.apps__item-text {
-  color: #414141;
-  line-height: 150%;
-}
-
-.magazins {
-  padding-bottom: 120px;
-}
-.magazins__btns {
-  display: flex;
-  gap: 24px;
-}
-.magazins__btn {
-  border: none;
-  padding: 8px;
-  color: #606060;
   font-size: 12px;
   line-height: 150%;
-  border-radius: 4px;
-  background: #F3F2F1;
-  margin-bottom: 24px;
+}
+.products__link-item2 {
+  color: #8F8F8F;
+  font-size: 12px;
+  line-height: 150%;
+}
+.products__pagination {
+  display: flex;
+  gap: 20px;
+}
+.products__pagination button {
   cursor: pointer;
 }
-.magazins__btn-active {
-  background: #70C05B;
-  color: white;
+.products__pagination-active {
+  background-color: cyan;
 }
-.magazins__map {
-  width: 100%;
+.products__pagination-prewious {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
 }
-
-.search {
-  position: relative;
-  top: 0;
-  left: 0;
-  display: none;
+.products__pagination-btn {
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
 }
-.search__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  height: 250px;
-  overflow-y: scroll;
-  position: absolute;
-  top: 76px;
-  left: 25%;
-}
-.search-hide {
-  display: none;
-}
-.search__card {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 10px;
-  background-color: #fff;
-  width: 500px;
-}
-.search-img {
-  width: 100px;
-  height: 70px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.search-title {
-  max-width: 250px;
-}
-.search__alert {
-  background-color: #fff;
-  width: 500px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.search__alert-title {
-  font-size: 28px;
-  font-weight: 600;
-}/*# sourceMappingURL=main.css.map */
+.products__pagination-next {
+  padding: 5px 24px;
+  border: none;
+  border-radius: 4px;
+}/*# sourceMappingURL=products.css.map */

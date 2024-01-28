@@ -36,19 +36,19 @@
             margin-left: 5px;
             cursor: pointer;
 
-            
+
 
             img {
                 margin-right: 8px;
             }
         }
 
-        &-link{
+        &-link {
             color: #FFF;
             text-align: center;
             line-height: 150%;
         }
-        
+
         &-item {
             width: 360px;
             display: flex;
@@ -101,25 +101,11 @@
         background-color: #fff;
         display: none;
         z-index: 99;
+        height: 250px;
         margin: 0 auto;
         max-width: 1440px;
         width: 100%;
-
-        &-open {
-            display: block;
-        }
-    }
-
-    &__menu {
-        display: flex;
-        justify-content: space-between;
         padding: 40px 0;
-
-        li {
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-        }
 
         &-link {
             color: #414141;
@@ -127,11 +113,22 @@
             line-height: 150%;
             transition: all 0.5s;
 
-            &:hover {
+            &:hover{
                 color: #F63;
             }
         }
+
+        &-open {
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            justify-content: start;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
     }
+
+
 }
 
 @media only screen and (max-width:1080px) {

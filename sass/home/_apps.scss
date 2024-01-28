@@ -1,0 +1,38 @@
+.apps {
+
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 120px;
+    }
+
+    &__item {
+        padding: 30px;
+        display: flex;
+        max-width: 584px;
+        border-radius: 4px;
+        background: #FCD5BA;
+        transition: all 0.3s;
+
+        &:last-child {
+            background: #E5FFDE;
+        }
+
+        &:hover {
+            box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.50);
+        }
+
+        &-title {
+            color: #414141;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 150%;
+        }
+
+        &-text{
+            color: #414141;
+            line-height: 150%; 
+        }
+    }
+}

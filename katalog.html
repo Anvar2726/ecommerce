@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/catalog.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <a class="header__logo" href="index.html">
+                    <img src="./images/site_logo.png" alt="logo site">
+                </a>
+                <a class="header__logo2" href="index.html">
+                    <img src="./images/site_logo-res.png" alt="site logo res">
+                </a>
+                <ul class="header__left">
+                    <li class="header__left-btn">
+                        <button class="header__left-btn header__left-btn1">
+                            <img src="./images/hamburgermenu.svg" alt="hamburgermenu">
+                        </button>
+                        <a class="header__left-link" href="katalog.html">
+                            <span class="header__left-btn-title">Каталог</span>
+                        </a>
+                    </li>
+                    <li class="header__left-item">
+                        <input class="header__left-search"  id="search" placeholder="Найти товар">
+                        <label for="search">
+                            <img src="./images/search.svg" alt="search">
+                        </label>
+                    </li>
+                </ul>
+                <ul class="header__right">
+                    <li>
+                        <a class="header__right-item" href="#">
+                            <img src="images/izbranniy.svg" alt="izbranniy">
+                            Избранное
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__right-item" href="products.html">
+                            <img src="images/produkti.svg" alt="produkti">
+                            продукты
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__right-item" href="#">
+                            <img src="images/korzinka.svg" alt="">
+                            Корзина
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__right-profile" href="#">
+                            <img src="images/aleksey.png" alt="avatar">
+                            <span class="header__right-profile-title"> Алексей</span>
+                            <span><img class="header__right-profile-img" src="images/dropdown.svg" alt="dropdown"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class=" container ">
+            <div class="header__catalog">
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- catalog -->
+        <section class="catalog">
+            <div class="container">
+                <div class="catalog__links">
+                    <a class="catalog__links-item1" href="index.html">Главная</a>
+                    <img src="images/right.svg" alt="right">
+                    <a class="catalog__links-item2" href="katalog.html">Каталог</a>
+                </div>
+                <h1 class="catalog__title">Каталог</h1>
+                <div class="catalog__cards">
+                    
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <script src="js/categories-data.js"></script>
+    <script src="js/catalog.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/products-data.js"></script>
+    <script src="js/const.js"></script>
+    <script src="js/all-products.js"></script>
 </body>
 </html>
